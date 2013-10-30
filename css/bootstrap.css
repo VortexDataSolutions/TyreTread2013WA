@@ -1242,7 +1242,6 @@ select,
 textarea {
     font-size: 14px;
     font-weight: normal;
-    line-height: 20px;
 }
 input,
 button,
@@ -1251,7 +1250,7 @@ textarea {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 label {
-    display: block;
+   
     margin-bottom: 5px;
 }
 select,
