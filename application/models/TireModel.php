@@ -20,7 +20,9 @@ class TireModel extends CI_Model {
                               JOIN diameter
                               ON diameter.intDiameterID = tyrerange.intDiameterID
                               JOIN location
-                              ON location.intLocationID = tyrerange.intLocationID");
+                              ON location.intLocationID = tyrerange.intLocationID
+                              JOIN brand
+                              ON brand.intBrandID = tyrerange.intBrandID");
         
         if ($query->num_rows() > 0) {
             // loop through each record (row) and place that
@@ -33,6 +35,5 @@ class TireModel extends CI_Model {
         // return the array to the controller
         return $data;
     }
-
 }
 ?>

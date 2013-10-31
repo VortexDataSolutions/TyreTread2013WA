@@ -11,7 +11,9 @@
  * @author Simon
  */
 class SummaryModel extends CI_Model {
-    //put your code here
-}
 
+        function getProduct() {
+            
+        }
+}
 ?>
