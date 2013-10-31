@@ -19,6 +19,7 @@
             <h2>Tire</h2>
         </div>
         <h4>Please select fields</h4>
+        <div align="center">
         <label>Width</label>
         <select>
             <option value="1">1</option>
@@ -32,6 +33,7 @@
             <option value="1">1</option>
         </select>
         <?php echo anchor('', 'Submit', 'class="btn btn-inverse btn-small"') ?>
+        </div>
         <div style="overflow-y:scroll;height:200px;">
             <table style="overflow-y:scroll;height:200px;">
                 <thead>
@@ -48,7 +50,7 @@
                 foreach ($records as $row):
                     echo "<tr>";
                     echo "<td> $row->strTyreProductCode </td>";
-                    echo "<td> $row->strDesc </td>";
+                    echo "<td> $row->strBrandDesc </td>";
                     echo "<td> $row->strDesc </td>";
                     echo "<td> $row->strDesc </td>";
                     echo "<td> $row->strDesc </td>";

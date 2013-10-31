@@ -21,13 +21,13 @@
         <h4>Please enter fields</h4>
         <?php
         echo "<form class='form-signin'>";
-        echo "<label>Description</label>";
-        echo "<input type='text' name='Description' id='desc' placeholder='Description'>";
+        echo "<label>Description</label><br>";
+        echo "<input type='text' name='Description' id='desc' placeholder='Description'><br>";
 
-        echo "<label>Price</label>";
-        echo "<input type='text' name='Price' class='input-medium' id='price' placeholder='$00.00'>";
+        echo "<label>Price</label><br>";
+        echo "<input type='text' name='Price' class='input-medium' id='price' placeholder='$00.00'><br>";
 
-        echo "<label>Quantity</label>";
+        echo "<label>Quantity</label><br>";
         echo "<select>";
         echo "<option></option>";
         echo "</select>";

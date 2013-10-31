@@ -6,6 +6,12 @@ if (!defined('BASEPATH'))
 class SummaryController extends CI_Controller {
 
     public function summary() {
-        $this->load->view('summary');
+        
+        $this->load->model('SummaryModel');
+        
+        $data['records'] = $this->SummaryModel->getProduct();
+        
+        $this->load->view('summary', $data);
+        
     }
 }
